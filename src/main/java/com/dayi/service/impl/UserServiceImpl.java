@@ -25,9 +25,6 @@ public class UserServiceImpl implements UserService {
 		userMapper.deleteUser(id);
 	}
 	
-	/*public void deleteUser(Long id) {
-		userMapper.deleteUser(id);
-	}*/
 	
 
 	@Override
@@ -41,9 +38,7 @@ public class UserServiceImpl implements UserService {
 		return userMapper.get(id);
 	}
 	
-	/*public User get(Long id) {
-		return userMapper.get(id);
-	}*/
+	
 
 	@Override
 	public List<User> list() {

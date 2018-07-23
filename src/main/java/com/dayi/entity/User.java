@@ -4,10 +4,6 @@ public class User {
 	
 	private int id;
 
-	
-
-
-
 	private String nick;
 	
 	private String email;
