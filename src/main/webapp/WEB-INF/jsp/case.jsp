@@ -31,10 +31,10 @@
 	<div class="container">
 		<a href="index.htm"  class="fl logo"></a>
 		<div class="fr">
-			<a href="index.htm" class="btn1"></a>
-			<a href="case.htm"  class="btn2 btn2_fire"></a>
-			<a href="contacts.htm"  class="btn3 "></a>
-			<a href="about.htm"  class="btn4"></a>
+			<a href="index" class="btn1"></a>
+			<a href="case"  class="btn2 btn2_fire"></a>
+			<a href="contacts"  class="btn3 "></a>
+			<a href="about"  class="btn4"></a>
 		</div>
 		<div class="clear"></div>
 	</div>

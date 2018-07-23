@@ -22,7 +22,7 @@
 			<div class="fr">
 				<a href="index.htm" class="btn1"></a> <a href="case.htm"
 					class="btn2"></a> <a href="contacts.htm" class="btn3"></a> <a
-					href="about.htm" class="btn4 btn4_fire"></a>
+					href="about" class="btn4 btn4_fire"></a>
 				<!-- 	<a href="￥"  class="btn5"></a> -->
 			</div>
 			<div class="clear"></div>

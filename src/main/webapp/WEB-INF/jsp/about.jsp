@@ -20,11 +20,11 @@
 <body class="body_aboutus" onselectstart="return false">
 	<div class="header">
 		<div class="container">
-			<a href="index.htm" class="fl logo"></a>
+			<a href="${pageContext.request.contextPath }/index" class="fl logo"></a>
 			<div class="fr">
-				<a href="index.htm" class="btn1"></a> <a href="case.htm"
-					class="btn2"></a> <a href="contacts.htm" class="btn3"></a> <a
-					href="about.htm" class="btn4 btn4_fire"></a>
+				<a href="${pageContext.request.contextPath }/index" class="btn1"></a> <a href="${pageContext.request.contextPath }/case"
+					class="btn2"></a> <a href="${pageContext.request.contextPath }/contacts" class="btn3"></a> <a
+					href="about" class="btn4 btn4_fire"></a>
 				<!-- 	<a href="￥"  class="btn5"></a> -->
 			</div>
 			<div class="clear"></div>
@@ -33,14 +33,14 @@
 	<div class="banner">
 
 		<div class="title">
-			<img src="images/banner_title_aboutus.png">
+			<img src="${pageContext.request.contextPath }/images/banner_title_aboutus.png">
 		</div>
 		<div class="nav2">
 			<div class="container">
 				<ul>
 					<li class="location">位置</li>
-					<li><a href="index" title='Home'>首页</a></li>
-					<li class="last"><a href="about" title='About Us'>关于我们</a></li>
+					<li><a href="${pageContext.request.contextPath }/index" title='Home'>首页</a></li>
+					<li class="last"><a href="${pageContext.request.contextPath }/about" title='About Us'>关于我们</a></li>
 
 				</ul>
 

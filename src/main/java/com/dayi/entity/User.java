@@ -1,6 +1,12 @@
 package com.dayi.entity;
 
 public class User {
+	
+	private int id;
+
+	
+
+
 
 	private String nick;
 	
@@ -11,12 +17,21 @@ public class User {
 	private String address;
 	
 	private String xbody;
-	
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 
 	public String getNick() {
 		return nick;
 	}
-
 
 
 	public void setNick(String nick) {
@@ -24,17 +39,14 @@ public class User {
 	}
 
 
-
-	public String getMail() {
+	public String getEmail() {
 		return email;
 	}
 
 
-
-	public void setMail(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
-
 
 
 	public String getTel() {
@@ -42,11 +54,9 @@ public class User {
 	}
 
 
-
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
-
 
 
 	public String getAddress() {
@@ -54,11 +64,9 @@ public class User {
 	}
 
 
-
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
 
 
 	public String getXbody() {
@@ -66,11 +74,9 @@ public class User {
 	}
 
 
-
 	public void setXbody(String xbody) {
 		this.xbody = xbody;
 	}
-
 
 
 	public User() {
@@ -78,10 +84,10 @@ public class User {
 	}
 
 
-
-	public User(String nick, String mail, String tel, String address,
+	public User(int id, String nick, String email, String tel, String address,
 			String xbody) {
 		super();
+		this.id = id;
 		this.nick = nick;
 		this.email = email;
 		this.tel = tel;
@@ -93,8 +99,9 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [nick=" + nick + ", email=" + email + ", tel=" + tel
-				+ ", address=" + address + ", xbody=" + xbody + "]";
+		return "User [id=" + id + ", nick=" + nick + ", email=" + email
+				+ ", tel=" + tel + ", address=" + address + ", xbody=" + xbody
+				+ "]";
 	}
 	
 }

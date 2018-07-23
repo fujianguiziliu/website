@@ -79,10 +79,16 @@
                                                   <a style="color: grey; font-size: 25px" >留言成功！！！</a>    
                                                    <font class="fontbig" style="color: grey; font-size: 25px">页面跳转中.....
                                                         <!--End Displaytext-->
+                                                        
                                                         <div align="center">
-                                                             
-                                                             
+                                                            <form method="post" name="proccess">
+                                                            <script language="javascript">
+                                                                for (i = 0; i < 30; i++) document.write("<input class=proccess>")
+                                                            </script>
+                                                            </form>
                                                         </div>
+                                                             
+                                                       
                                                     </font>
                                                 </td>
                                             </tr>
