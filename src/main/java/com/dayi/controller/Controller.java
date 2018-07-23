@@ -85,15 +85,15 @@ public class Controller {
 	@RequestMapping("/updateUser")
 	public void updateUser(HttpServletRequest request,Model model,HttpServletResponse response) throws Exception{
 		request.setCharacterEncoding("UTF-8");
-		String nickk =request.getParameter("nick");
-		String emaill = request.getParameter("email");
-		String tell = request.getParameter("tel");
+		String nickString =request.getParameter("nick");
+		String emailString = request.getParameter("email");
+		String tellString = request.getParameter("tel");
 		String addressString = request.getParameter("address");
 		String  xbodyString =request.getParameter("xbody");
 		
-		user.setNick(nickk);
-		user.setEmail(emaill);
-		user.setTel(tell);
+		user.setNick(nickString);
+		user.setEmail(emailString);
+		user.setTel(tellString);
 		user.setAddress(addressString);
 		user.setXbody(xbodyString);
 		userService.updateUser(user);
