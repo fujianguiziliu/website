@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayi.mapper.UserMapper">
+	<insert id="saveUser" parameterType="User">
+		insert into user values(#{id},#{nick},#{email},#{tel},#{address},#{xbody})
+	</insert>
+	<delete id="deleteUser" parameterType="long">
+		delete  from user where  id=#{id}
+	</delete>
+	<select id="getUser" parameterType="User">
+		selete  user from user where id=#{id}
+	</select>
+	<update id="updateUser" parameterType="User">
+		update user 
+		set 
+			nick=#{nick},
+			email=#{email},
+			tel=#{tel},
+			address=#{address},
+			xbody=#{xbody}
+		where id=#{id}
+	</update>
+</mapper>
