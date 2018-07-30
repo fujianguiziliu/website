@@ -11,6 +11,6 @@ public interface UserMapper {
 	public void saveUser(User user);
 	public void deleteUser(Long id);
 	public void updateUser(User user);
-	User get(Long id); 
-	List<User>  list();
+	public User get(Long id); 
+	public List<User>  list();
 }

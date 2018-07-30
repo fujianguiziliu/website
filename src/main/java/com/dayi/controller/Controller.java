@@ -68,7 +68,7 @@ public class Controller {
 		String xbody = request.getParameter("xbody");
 		
 		user.setNick(nick);
-		user.setEmail(email);
+		user.setEmail(email);	
 		user.setTel(tel);
 		user.setXbody(xbody);
 		user.setAddress(address);
