@@ -156,7 +156,7 @@
    </dependency>
   </dependencies>
   <build>
-        <finalName>dayi_website</finalName>
+        <finalName>website</finalName>
         <plugins>
         	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
