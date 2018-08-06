@@ -17,6 +17,7 @@ import com.dayi.service.UserService;
 @org.springframework.stereotype.Controller
 public class Controller {
 	
+	
 	private static final Long id = null;
 
 	@Autowired
